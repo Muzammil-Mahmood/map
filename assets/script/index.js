@@ -24,22 +24,12 @@ const marker = new mapboxgl.Marker()
     
  }
 
-//  const map = new mapboxgl.Map({attributionControl: false})
-// .addControl(new mapboxgl.AttributionControl({
-// customAttribution: 'Map design by me'
-// }));
+
 
 
 function errorHandler(error) {
     console.log(error.message);
 }
-// // to get the map full screen
-// const map = new mapboxgl.Map({
-//     container: 'map',
-//     projection: 'globe'
-// });
-
-// map.addControl(new mapboxgl.FullscreenControl({container: document.querySelector('body')}));
 
 
 
