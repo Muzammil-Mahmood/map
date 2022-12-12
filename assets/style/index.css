@@ -1,0 +1,31 @@
+@import './reset.css';
+
+
+body {
+    background-color: #010101;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+
+footer nav {
+    text-align: center;
+}
+
+footer nav ul li {
+    display: inline;
+    font-size: 50px;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+
